@@ -3,6 +3,7 @@ import {
   TestCharacterContext,
   PageNumberContext,
 } from "../context/TestCharacterContext";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 export default function Footer() {
   const getPage = useContext(PageNumberContext);
@@ -15,28 +16,29 @@ export default function Footer() {
   } = useContext(TestCharacterContext);
   return (
     <footer className="Footer">
-      <div
+      <FaArrowCircleLeft
+        size="1.5rem"
         className="page-button"
-        onClick={(e) => {
+        onClick={() => {
           if (prev) {
             getPage(prev);
           }
         }}
-      >{`<`}</div>
+      />
       <div className="page-info">
         <p>
           {next - 1}/{+pages}
         </p>
-        <small>Page</small>
       </div>
-      <div
+      <FaArrowCircleRight
+        size="1.5rem"
         className="page-button"
-        onClick={(e) => {
+        onClick={() => {
           if (next) {
             getPage(next);
           }
         }}
-      >{`>`}</div>
+      />
     </footer>
   );
 }

@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  .logo {
+    margin-right: 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+    span {
+      font-size: 0.8rem;
+    }
+  }
+  .search-filter {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    input {
+      border: none;
+      outline: none;
+      background: transparent;
+      border-bottom: 2px solid #000;
+      flex: 1;
+      padding: 0.2rem 0.3rem;
+      font-size: 1.2rem;
+      &::placeholder {
+      }
+    }
+    .filter-icon {
+      margin-left: 1rem;
+      transition: transform 0.3s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 610px) {
+  nav {
+    flex-direction: column;
+    .logo {
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -7,21 +7,16 @@
   color: #fff;
   text-shadow: 1px 1px rgba($color: #000000, $alpha: 0.5);
   .page-info {
-    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    small {
-      font-weight: 400;
-      font-size: 0.8rem;
-    }
   }
   .page-button {
-    font-weight: 900;
-    transition: transform 0.3s ease-in-out;
     &:hover {
       cursor: pointer;
-      transform: scale(1.5);
+      color: rgb(104, 255, 44);
     }
   }
 }
