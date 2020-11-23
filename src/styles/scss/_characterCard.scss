@@ -1,0 +1,13 @@
+.CharacterCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  .detail-section {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+}
