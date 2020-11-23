@@ -8,103 +8,363 @@
       },
       "results": [{
           "id": "1",
+          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
           "name": "Rick Sanchez",
-          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "1",
+            "name": "Earth (C-137)",
+            "dimension": "Dimension C-137"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "2",
+          "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
           "name": "Morty Smith",
-          "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "1",
+            "name": "Earth (C-137)",
+            "dimension": "Dimension C-137"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "3",
+          "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
           "name": "Summer Smith",
-          "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "origin": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "4",
+          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
           "name": "Beth Smith",
-          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "origin": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "5",
+          "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
           "name": "Jerry Smith",
-          "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "6",
+          "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
           "name": "Abadango Cluster Princess",
-          "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "Female",
+          "origin": {
+            "id": "2",
+            "name": "Abadango",
+            "dimension": "unknown"
+          },
+          "location": {
+            "id": "2",
+            "name": "Abadango",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "7",
+          "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
           "name": "Abradolf Lincler",
-          "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+          "status": "unknown",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          },
+          "location": {
+            "id": "21",
+            "name": "Testicle Monster Dimension",
+            "dimension": "Testicle Monster Dimension"
+          }
         },
         {
           "id": "8",
+          "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
           "name": "Adjudicator Rick",
-          "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+          "status": "Dead",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "3",
+            "name": "Citadel of Ricks",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "9",
+          "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
           "name": "Agency Director",
-          "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+          "status": "Dead",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "10",
+          "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
           "name": "Alan Rails",
-          "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+          "status": "Dead",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "4",
+            "name": "Worldender's lair",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "11",
+          "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
           "name": "Albert Einstein",
-          "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+          "status": "Dead",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "1",
+            "name": "Earth (C-137)",
+            "dimension": "Dimension C-137"
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "12",
+          "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
           "name": "Alexander",
-          "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+          "status": "Dead",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": "1",
+            "name": "Earth (C-137)",
+            "dimension": "Dimension C-137"
+          },
+          "location": {
+            "id": "5",
+            "name": "Anatomy Park",
+            "dimension": "Dimension C-137"
+          }
         },
         {
           "id": "13",
+          "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
           "name": "Alien Googah",
-          "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+          "status": "unknown",
+          "species": "Alien",
+          "gender": "unknown",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "14",
+          "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
           "name": "Alien Morty",
-          "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+          "status": "unknown",
+          "species": "Alien",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "3",
+            "name": "Citadel of Ricks",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "15",
+          "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
           "name": "Alien Rick",
-          "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+          "status": "unknown",
+          "species": "Alien",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "3",
+            "name": "Citadel of Ricks",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "16",
+          "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
           "name": "Amish Cyborg",
-          "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+          "status": "Dead",
+          "species": "Alien",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "20",
+            "name": "Earth (Replacement Dimension)",
+            "dimension": "Replacement Dimension"
+          }
         },
         {
           "id": "17",
+          "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
           "name": "Annie",
-          "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "origin": {
+            "id": "1",
+            "name": "Earth (C-137)",
+            "dimension": "Dimension C-137"
+          },
+          "location": {
+            "id": "5",
+            "name": "Anatomy Park",
+            "dimension": "Dimension C-137"
+          }
         },
         {
           "id": "18",
+          "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
           "name": "Antenna Morty",
-          "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "3",
+            "name": "Citadel of Ricks",
+            "dimension": "unknown"
+          }
         },
         {
           "id": "19",
+          "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
           "name": "Antenna Rick",
-          "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+          "status": "unknown",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          }
         },
         {
           "id": "20",
+          "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
           "name": "Ants in my Eyes Johnson",
-          "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+          "status": "unknown",
+          "species": "Human",
+          "gender": "Male",
+          "origin": {
+            "id": null,
+            "name": "unknown",
+            "dimension": null
+          },
+          "location": {
+            "id": "6",
+            "name": "Interdimensional Cable",
+            "dimension": "unknown"
+          }
         }
       ]
     }

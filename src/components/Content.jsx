@@ -1,8 +1,12 @@
 import React, { useContext } from "react";
-import { TestCharacterContext } from "../context/TestCharacterContext";
+import {
+  TestCharacterContext,
+  LoadingContext,
+} from "../context/TestCharacterContext";
 import CharacterCard from "./CharacterCard";
 
 export default function Content() {
+  const loading = useContext(LoadingContext);
   const {
     data: {
       characters: { results },
@@ -10,9 +14,9 @@ export default function Content() {
   } = useContext(TestCharacterContext);
   return (
     <div className="Content">
-      {results.map(({ id, name, image }) => (
-        <CharacterCard key={id} name={name} image={image} />
-      ))}
+      {loading
+        ? "Loading"
+        : results.map((char) => <CharacterCard key={char.id} data={char} />)}
     </div>
   );
 }
