@@ -38,10 +38,8 @@ export default function NavBar() {
           onKeyDown={(e) => {
             if (e.code === "Enter") {
               // Lets first validate that what is entered in this field exists in the API
-              if (searchValue) {
-                searchCharacter(searchValue, filterOptions);
-                setSearchValue("");
-              }
+              searchCharacter(searchValue, filterOptions);
+              setSearchValue("");
             }
           }}
           onFocus={() => setShowFilters(false)}
