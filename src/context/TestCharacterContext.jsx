@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState, createContext, useEffect } from "react";
 import { queryFetch } from "../utility";
 
 import json from "../test_data/index.json";
@@ -48,10 +48,13 @@ export default function TestCharacterProvider({ children }) {
     setLoading(false);
   };
 
-  const searchCharacter = (name) => {
+  const searchCharacter = (
+    name = "",
+    filterOptions = { status: "", gender: "" }
+  ) => {
     setLoading(true);
     const query = `query {
-      characters(page: 1, filter: {name: "${name}"}) {
+      characters(page: 1, filter: {name: "${name}", status: "${filterOptions.status}", gender: "${filterOptions.gender}"}) {
         info {
           pages
           next
