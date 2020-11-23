@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="Footer">
       <FaArrowCircleLeft
-        size="1.5rem"
+        size="2rem"
         className="page-button"
         onClick={() => {
           if (prev) {
@@ -27,11 +27,11 @@ export default function Footer() {
       />
       <div className="page-info">
         <p>
-          {next - 1}/{+pages}
+          {next > 1 ? next - 1 : 1}/{+pages}
         </p>
       </div>
       <FaArrowCircleRight
-        size="1.5rem"
+        size="2rem"
         className="page-button"
         onClick={() => {
           if (next) {
